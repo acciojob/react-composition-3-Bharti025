@@ -5,11 +5,11 @@ import Tooltip from "./Tooltip";
 const App = () => {
   return (
     <div>
-      <h4>
+      <h2>
       <Tooltip text="This is a tooltip">
        <span>Hover over me</span>
        </Tooltip>
-       </h4>
+       </h2>
        <hr></hr>
          <p>
       <Tooltip text="This is another tooltip">
